@@ -1,0 +1,58 @@
+/* Font ================================================ */
+@font-face {
+  font-family : 'abd-regular';
+  src: url("./font/abd-regular.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'FMPointifax-A';
+  src: url('./font/FMPointifax-A.ttf') format('truetype');
+}
+
+
+/* Font: variable ================================================ */
+@font-face {
+  font-family : 'Dusseldot-Variable';
+  src: url("./font/Dusseldot-Variable.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'vdotVF';
+  src: url('./font/vdotVF.ttf') format('truetype');
+  font-weight: 1 999;
+}
+
+
+/* Font: align ================================================ */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+
+/* Font: body text ================================================ */
+.font-body {
+  font-family: 'abd-regular';
+  font-size: 48px;
+  color: #ffffff;
+}
+
+
+/* Font: title ================================================ */
+#font-title{
+  --gravity: 0;
+  --pos: 0;
+  font-family:'Dusseldot-Variable';
+  font-variation-settings: "wdth" var(--gravity), "wght" var(--gravity);
+  font-size: 300px;
+  color: yellow;
+  line-height: 1.1;
+  display: none;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}

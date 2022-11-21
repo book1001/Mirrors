@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000020391900708388975860000017067757012375029396_);}
+	.st2{fill:url(#SVGID_00000002371432320156458450000002384961025883941555_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="948" x2="33.3333" y2="948" gradientTransform="matrix(1 0 0 1 0 -898)">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="0.2284" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.7741" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<rect class="st0" width="33.3" height="100"/>
+<linearGradient id="SVGID_00000020382049300758491490000002147068859528620434_" gradientUnits="userSpaceOnUse" x1="33.3333" y1="948" x2="66.6667" y2="948" gradientTransform="matrix(1 0 0 1 0 -898)">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="0.2284" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.7741" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<rect x="33.3" style="fill:url(#SVGID_00000020382049300758491490000002147068859528620434_);" width="33.3" height="100"/>
+<linearGradient id="SVGID_00000175322967144134188030000011657278689137929135_" gradientUnits="userSpaceOnUse" x1="66.6667" y1="948" x2="100" y2="948" gradientTransform="matrix(1 0 0 1 0 -898)">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="0.2284" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.7741" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<rect x="66.7" style="fill:url(#SVGID_00000175322967144134188030000011657278689137929135_);" width="33.3" height="100"/>
+</svg>

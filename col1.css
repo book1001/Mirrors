@@ -1,0 +1,35 @@
+/* Laybel ================================================ */
+.labelHover {
+  display: inline;
+  font-family: 'abd-regular';
+  font-size: 15px;
+}
+
+label[colorName]:hover:after {
+   content: attr(colorName);
+}
+
+
+/* Laybel: color ================================================ */
+.R {
+  color: Red;
+}
+.Y {
+  color: yellow;
+}
+.B {
+  color: Blue;
+}
+.P {
+  color: #ff00ff;
+}
+
+
+/* Slider ================================================ */
+input[type=range][orient=vertical] {
+    padding: 0 5px;
+    width: 8px;
+    height: 175px;
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* Chromium */
+}
