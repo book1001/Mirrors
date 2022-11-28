@@ -1,0 +1,44 @@
+
+
+/* P5js ================================================ */
+iframe {
+  border-width: 2px;
+  border-style: inset;
+  border-color: red;
+  border-image: initial;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  /* position: absolute; */
+  /* margin-top: 100px; */
+  top: 0;
+  right: 0;
+  /* transform: translate(-50%, 0); */
+  /* transform: matrix(1, 2, 3, 4, 5, 6); */
+}
+
+#canvas-parent{
+  /* --pos: 0;
+  transform: rotate3d(1, 1, 0, var(--pos)); */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: auto;
+  z-index: 2;
+}
+
+#canvas-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -2;
+  background-color: yellow;
+  /* background-image: url('.data/text_HELLO_dot.png');
+  background-repeat: repeat-x; */
+  /* background: url(".data/01.svg") repeat-x; */
+}
