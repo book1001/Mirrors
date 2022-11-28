@@ -183,7 +183,7 @@
   function setup() {
     initialize();
 
-    var canvas = createCanvas(windowWidth, windowHeight);
+    var canvas = createCanvas(windowWidth/2, windowHeight);
      // var x = (windowWidth - width) / 2;
      // var y = (windowHeight - height) / 2;
      // canvas.position(x, y);
