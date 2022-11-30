@@ -42,3 +42,7 @@ canvas {
   background-repeat: repeat-x; */
   /* background: url(".data/01.svg") repeat-x; */
 }
+
+.p5Canvas{
+  opacity: 1;
+}

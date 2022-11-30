@@ -61,10 +61,13 @@
 	// Rooms navigation controls.
 	DOM.nav = {
 		leftCtrl : DOM.content.querySelector('nav > .btn--nav-left'),
-		rightCtrl : DOM.content.querySelector('nav > .btn--nav-right')
+		rightCtrl : DOM.content.querySelector('nav > .btn--nav-right'),
+
+    radioCtrl : DOM.content.querySelector('nav > .btn--nav-radio')
 	};
 	// Content slides.
 	DOM.slides = [].slice.call(DOM.content.querySelectorAll('.slides > .slide'));
+  // DOM.canvasSlides = [].slice.call(DOM.canvasSlides.querySelectorAll('.p5Canvas'));
 	// The off canvas menu button.
 	DOM.menuCtrl = DOM.content.querySelector('.btn--menu');
 	// The menu overlay.
@@ -77,6 +80,11 @@
 	DOM.infoOverlay = DOM.content.querySelector('.overlay--info');
 	// The info text.
 	DOM.infoText = DOM.infoOverlay.querySelector('.info');
+
+  // Halim creates
+  // DOM.content_radio = document.querySelector('.content_radio');
+  // DOM.slides_radio = [].slice.call(DOM.content_radio.querySelectorAll('.slides_radio > .slide_radio'));
+
 
 	var	currentRoom = 0,
 		// Total number of rooms.
@@ -229,6 +237,9 @@
 			title = slide.querySelector('.slide__title'),
 			date = slide.querySelector('.slide__date');
 
+    // var p5Canvas = DOM.canvasSlides[currentRoom],
+      // date = p5Canvas.querySelector('.p5Canvas');
+
 		delay = delay !== undefined ? delay : 0;
 
 		anime.remove([name, title, date]);
@@ -261,12 +272,51 @@
 		anime(animeOpts);
 	}
 
+  // function toggleSlideRadio(dir, delay) {
+	// 	var slideRadio = DOM.slides_radio[currentRoom],
+	// 		// Slide's name.
+	// 		radio = slideRadio.querySelector('.slide__radio')
+  //
+	// 	delay = delay !== undefined ? delay : 0;
+  //
+	// 	anime.remove([radio]);
+	// 	var animeOpts = {
+	// 		targets: [radio],
+	// 		duration: dir === 'in' ? 400 : 400,
+	// 		//delay: 0,//dir === 'in' ? 150 : 0,
+	// 		delay: function(t, i, c) {
+	// 			return delay + 75+i*75;
+	// 		},
+	// 		easing: [0.25,0.1,0.25,1],
+	// 		opacity: {
+	// 			value: dir === 'in' ? [0,1] : [1,0],
+	// 			duration: dir === 'in' ? 550 : 250
+	// 		},
+	// 		translateY: function(t, i) {
+	// 			return dir === 'in' ? [150,0] : [0,-150];
+	// 		}
+	// 	};
+	// 	if( dir === 'in' ) {
+	// 		animeOpts.begin = function() {
+	// 			slideRadio.classList.add('slide--current');
+	// 		};
+	// 	}
+	// 	else {
+	// 		animeOpts.complete = function() {
+	// 			slideRadio.classList.remove('slide--current');
+	// 		};
+	// 	}
+	// 	anime(animeOpts);
+	// }
+
 	function showSlide(delay) {
 		toggleSlide('in', delay);
+    // toggleSlideRadio('in', delay);
 	}
 
 	function hideSlide(delay) {
 		toggleSlide('out', delay);
+    // toggleSlideRadio('out', delay);
 	}
 
 	function navigate(dir) {
